@@ -1,9 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopal's Professional Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            display: flex;
+            align-items: center;
+        }
+        .profile-image {
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .content {
+            flex: 1;
+        }
+        .header {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .paragraph {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .link {
+            color: #0073b1;
+            text-decoration: none;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello There! This is surprsining</h1>
-<p>This is Gopal. I do not have much hear. You can check my Linked In profile as of now
-    https://www.linkedin.com/in/gopal-094a6421/
-</p>
+    <div class="container">
+        <img src="resource/gopal1.jpg" alt="Gopal's Profile Image" class="profile-image">
+        <div class="content">
+            <h1 class="header">Hello There! This is surprising</h1>
+            <p class="paragraph">I'm Gopal, a seasoned professional with extensive experience in software development, focusing on backend technologies and system architecture. I have a strong background in Java, Spring Boot, and distributed systems, often working with tools like Apache Kafka and Camunda for process automation.</p>
+            <p class="paragraph">Feel free to connect with me on LinkedIn to explore my professional journey and learn more about my projects and achievements:</p>
+            <a href="https://www.linkedin.com/in/gopal-094a6421/" class="link">Gopal's LinkedIn Profile</a>
+        </div>
+    </div>
 </body>
 </html>
